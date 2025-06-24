@@ -3,7 +3,7 @@ import { auth } from "../auth";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import AdminNavbar from "../components/AdminNavbar";
-import AddProduct from '../components/AddProduct'
+import AddProduct from "../components/Addproduct"
 
 const AdminPage = async ({ userName }) => {
   const session = await auth();
