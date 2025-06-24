@@ -5,7 +5,7 @@ import UserNavigation from "./components/UserNavigation";
 import AdminPage from "./Admin/page";
 import ProductCollection from "./components/ProductCollection";
 import BannerCarousel from "./components/Banner";
-
+import { redirect } from "next/navigation";
 const HomePage = async () => {
   const session = await auth();
   await DBConnection();
